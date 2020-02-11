@@ -1,11 +1,12 @@
 {
-  "name": "docz-example-basic",
+  "name": "javascript",
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
     "dev": "docz dev",
     "build": "docz build",
-    "serve": "docz serve"
+    "serve": "docz serve",
+    "save": "git add . && git commit -m 'Hello World' && git push -u origin master"
   },
   "dependencies": {
     "docz": "latest",

@@ -19,7 +19,7 @@ const config = {
   pathPrefix: '/',
 
   siteMetadata: {
-    title: 'Docz Example Basic',
+    title: 'Javascript',
     description: 'My awesome app using docz',
   },
   plugins: [
@@ -49,7 +49,7 @@ const config = {
         base: '/',
         source: './',
         src: './',
-        files: '**/*.{md,markdown,mdx}',
+        files: '**/*.{markdown,mdx}',
         public: '/public',
         dest: '.docz/dist',
         d: '.docz/dist',
@@ -57,7 +57,7 @@ const config = {
         eb: 'master',
         'edit-branch': 'master',
         config: '',
-        title: 'Docz Example Basic',
+        title: 'Javascript',
         description: 'My awesome app using docz',
         host: 'localhost',
         port: 3000,
