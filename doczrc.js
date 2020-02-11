@@ -1,3 +1,3 @@
-export default {
-  files: '**/*.{markdown,mdx}'
+module.exports = {
+  ignore: ['README.md']
 }
