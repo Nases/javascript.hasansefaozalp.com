@@ -4,10 +4,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "docz dev",
-    "build": "rimraf .docz && docz build",
+    "build": "rm -rf .docz && docz build",
     "serve": "docz serve",
     "save": "git add . && git commit -m '⭐️' && git push -u origin master",
-    "test": "rimraf ./.docz"
+    "test": "rimraf ./.docz",
+    "test2": "rm -rf .docz"
   },
   "dependencies": {
     "docz": "latest",
