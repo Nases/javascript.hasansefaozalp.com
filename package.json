@@ -7,7 +7,7 @@
     "build": "rimraf .docz && docz build",
     "serve": "docz serve",
     "save": "git add . && git commit -m '⭐️' && git push -u origin master",
-    "test": "rimraf .docz"
+    "test": "rimraf ./.docz"
   },
   "dependencies": {
     "docz": "latest",
