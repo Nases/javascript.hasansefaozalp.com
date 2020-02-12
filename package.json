@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "docz dev",
-    "build": "docz build",
+    "build": "rimraf .docz && docz build",
     "serve": "docz serve",
     "save": "git add . && git commit -m '⭐️' && git push -u origin master"
   },
@@ -12,6 +12,7 @@
     "docz": "latest",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "rimraf": "^3.0.2"
   }
 }
