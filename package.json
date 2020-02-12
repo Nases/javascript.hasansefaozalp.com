@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "docz dev",
-    "build": "rimraf .docz && docz build",
+    "build": "rm filename && docz build",
     "serve": "docz serve",
     "save": "git add . && git commit -m '⭐️' && git push -u origin master"
   },
